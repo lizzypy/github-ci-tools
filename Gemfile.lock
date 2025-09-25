@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    github_ci_tools (0.0.0)
-      faraday (~> 2.0)
+    github_ci_tools (0.0.1)
+      faraday (~> 1.0)
       json (~> 2.6)
       jwt (~> 2.8)
       openssl (~> 3.0)
@@ -18,19 +18,14 @@ GEM
       bigdecimal
       rexml
     diff-lcs (1.6.2)
-    faraday (2.13.4)
-      faraday-net_http (>= 2.0, < 3.5)
-      json
-      logger
-    faraday-net_http (3.4.1)
-      net-http (>= 0.5.0)
+    faraday (1.2.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords
     hashdiff (1.2.1)
     json (2.13.2)
     jwt (2.10.2)
       base64
-    logger (1.7.0)
-    net-http (0.6.0)
-      uri
+    multipart-post (2.4.1)
     openssl (3.3.0)
     public_suffix (6.0.2)
     rexml (3.4.4)
@@ -47,7 +42,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.5)
-    uri (1.0.3)
+    ruby2_keywords (0.0.5)
     webmock (3.25.1)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)

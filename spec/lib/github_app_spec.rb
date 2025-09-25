@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../lib/github_app'
+require_relative '../../lib/github_ci_tools/github_app'
 
 RSpec.describe GitHubApp do
   let(:client_id) { 12345 }
